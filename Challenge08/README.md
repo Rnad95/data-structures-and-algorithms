@@ -44,7 +44,7 @@ Example of the output of the code using the methods:
 
 Challenge 08 output:
 
-![Output result](https://i.ibb.co/5kcdqcp/Screenshot-from-2022-03-10-17-30-47.png)
+![Output result](https://i.ibb.co/nL0vqgW/Screenshot-from-2022-03-10-18-06-01.png)
 
 ## The code Test for Challenge 08
 
