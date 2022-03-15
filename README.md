@@ -10,6 +10,11 @@
 | Challenge04   | Fibbonaci Interview | [White board Link](https://i.ibb.co/MMNNcCH/Fibbonaci.png)                                                                |
 | Challenge05   | LinkedList Part1    | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge05)                                    |
 |Challenge06+07 | LinkedList Part2+3  | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge06%2B07)                                |
-|Challenge08    | ZipList- LinkedList | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/linked-list-zip/Challenge08)                               |
+|Challenge08    | ZipList- LinkedList | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/linked-list-zip/Challenge08)                          |
+|Challenge09    | Reverselinkedlist   | [whiteboard Link](https://i.ibb.co/3Y1szf0/Screenshot-from-2022-03-14-18-24-01.png)                                        |
+|Challenge10    | Stack and Queue     | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/stack-and-queue/Challenge10)                          |
+
+
+
 
 
