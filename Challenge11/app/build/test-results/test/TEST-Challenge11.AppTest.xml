@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Challenge11.AppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-03-17T15:25:37" hostname="renad-HP-Notebook" time="0.076">
+  <properties/>
+  <testcase name="addEmptyQueue()" classname="Challenge11.AppTest" time="0.053"/>
+  <testcase name="DequeueEmptyQueue()" classname="Challenge11.AppTest" time="0.014"/>
+  <testcase name="addMultipleElement()" classname="Challenge11.AppTest" time="0.002"/>
+  <testcase name="DequeueOnEmptyQueue()" classname="Challenge11.AppTest" time="0.001"/>
+  <testcase name="appHasAGreeting()" classname="Challenge11.AppTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
