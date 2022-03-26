@@ -15,6 +15,7 @@
 |Challenge10    | Stack and Queue     | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge10)                                    |
 |Challenge11    | Queue using 2 Stack | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge11)                                    |
 |Challenge12    | Queue-Animal Shelter| [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/stack-queue-animal-shelter/Challenge12) |
+|Challenge13    |  validateBrackets   | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge13)                                    |
 
 
 
