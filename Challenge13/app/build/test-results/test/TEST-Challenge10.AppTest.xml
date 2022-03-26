@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Challenge10.AppTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-03-15T19:21:14" hostname="renad-HP-Notebook" time="0.059">
+  <properties/>
+  <testcase name="popItemOnStack()" classname="Challenge10.AppTest" time="0.027"/>
+  <testcase name="addMultipleItemOnQueue()" classname="Challenge10.AppTest" time="0.002"/>
+  <testcase name="addMultipleItemOnStack()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="instantiateEmptyQueue()" classname="Challenge10.AppTest" time="0.002"/>
+  <testcase name="instantiateEmptyStack()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="addOneItemOnQueue()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="addOneItemOnStack()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="popEmptyStack()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="peekToNext()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="emptyUsingDequeue()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="appHasAGreeting()" classname="Challenge10.AppTest" time="0.003"/>
+  <testcase name="emptyUsingPop()" classname="Challenge10.AppTest" time="0.0"/>
+  <testcase name="dequeueItemOnQueue()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="peekEmptyQueue()" classname="Challenge10.AppTest" time="0.001"/>
+  <testcase name="peekQueue()" classname="Challenge10.AppTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
