@@ -20,6 +20,7 @@
 |Challenge15    | Binary(Search) tree | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge15)                                    |
 |Challenge16    |  getMax - tree      | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge16)                                    |
 |Challenge17    |  Breadth first      | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge17)                                    |
+|Challenge18    |   K-ary Tree        | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/tree-fizz-buzz/Challenge18)                          |
 
 
 
