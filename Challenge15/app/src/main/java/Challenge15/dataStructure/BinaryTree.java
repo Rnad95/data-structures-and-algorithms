@@ -5,6 +5,8 @@ import Challenge15.data.Node;
 public class BinaryTree {
     private String str="";
     Node root;
+    int count1=0;
+    int count2=0;
     public BinaryTree() {
     }
 
@@ -58,4 +60,18 @@ return str;
         return str;
     }
 
+    public boolean TreeCheck( Node root2) {
+        if (root != null) {
+            if (root2.getLeft() == null) {
+                count2++;
+            }
+            TreeCheck(root2.getLeft());
+            if (root2.getLeft() == null) {
+                count2++;
+            }
+            TreeCheck(root2.getRight());
+
+        }
+        return count1 == count2;
+    }
 }

@@ -6,15 +6,18 @@ public class BinarySearchTree {
 
     Node root;
     boolean result;
+    int summation;
+    int count, count2;
 
     public void add(int value) {
         if (root == null) {
             root = new Node(value);
         } else {
             Node pointer = root;
-            traverse( pointer,value);
+            traverse(pointer, value);
         }
     }
+
     private void traverse(Node current, int value) {
         if (value > current.getValue()) {
             if (current.getRight() == null) {
@@ -42,7 +45,7 @@ public class BinarySearchTree {
         this.root = root;
     }
 
-    public boolean Contains(Node root,int value) {
+    public boolean Contains(Node root, int value) {
         Node Root;
         Node pointer = root;
         if (pointer.getValue() == value) {
@@ -55,12 +58,30 @@ public class BinarySearchTree {
         } else {
             pointer = pointer.getLeft();
         }
-        Root= pointer;
+        Root = pointer;
 
-        if(Root == null){
-            result=false;
-           return result;}
+        if (Root == null) {
+            result = false;
+            return result;
+        }
         Contains(Root, value);
         return result;
     }
+    
+
+        public boolean CompareTrees(Node root1, Node root2) {
+            if (root1 == null )
+                count++;
+            if(root2 == null)
+                count2++;
+            else {
+                if (root1 != null)
+                    if (root2 != null) {
+                        CompareTrees(root1.getLeft(), root2.getLeft());
+                        CompareTrees(root1.getRight(), root2.getRight());
+                    }
+            }
+            return count2==count;
+    }
+
 }
