@@ -38,3 +38,10 @@ The Link of The [Whiteboard](https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1
 3. Swap between the first element in the array and the `min` variable.  
 
 4. Make the minimum equals the next i and go through again in the array.
+
+### The output on intelliJ
+
+![output](https://i.ibb.co/bd5WHhj/Screenshot-from-2022-04-25-21-45-48.png)
+
+### The test of the Implementation
+![test output](https://i.ibb.co/X7zwtr7/Screenshot-from-2022-04-25-21-45-29.png)
