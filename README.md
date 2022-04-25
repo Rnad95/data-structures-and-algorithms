@@ -21,6 +21,7 @@
 |Challenge16    |  getMax - tree      | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge16)                                    |
 |Challenge17    |  Breadth first      | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge17)                                    |
 |Challenge18    |   K-ary Tree        | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/tree-fizz-buzz/Challenge18)                          |
+|**Challenge26**| **Selection Sort**  | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge26)                                    |
 
 
 
