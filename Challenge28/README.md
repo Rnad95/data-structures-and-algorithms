@@ -13,7 +13,7 @@ Read More about [Quicksort](BLOG.md) in my article.
 
 #### Selection sort Algorithm whiteboard
 
-![whiteboard](Challenge28/whiteboard.png)
+![whiteboard](Challenge28/last_version_whoteboard.png)
 
 Link Of [whiteboard](https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzU2YjBmYzc4ZTAzOTQxNjU5ZDBiN2RkODVhNjE1NmJmX2ExNjJjNTMyLTdhMGMtNDY0NS05NmZkLTIwZDAxOWNmNGU1YV9kMjdlNjYxNy1mZjljLTRhNjItOWY1Mi0wYzFmZjkwMzdkOTg=)
 
