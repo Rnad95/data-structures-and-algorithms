@@ -23,6 +23,7 @@
 |Challenge18    |   K-ary Tree        | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/tree-fizz-buzz/Challenge18)                          |
 |**Challenge26**| **Selection Sort**  | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge26)                                    |
 |  Challenge27  | MergeSort Algorithm | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge27)                                    |
+|  Challenge28  | QuickSort Algorithm | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge28)                                    |
 
 
 
