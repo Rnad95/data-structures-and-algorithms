@@ -24,6 +24,7 @@
 |**Challenge26**| **Selection Sort**  | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge26)                                    |
 |  Challenge27  | MergeSort Algorithm | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge27)                                    |
 |  Challenge28  | QuickSort Algorithm | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge28)                                    |
+|  Challenge30  |     HashTable       | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge30)                                    |
 
 
 
