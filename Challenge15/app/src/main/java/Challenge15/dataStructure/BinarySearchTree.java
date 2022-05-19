@@ -67,7 +67,7 @@ public class BinarySearchTree {
         Contains(Root, value);
         return result;
     }
-    
+
 
         public boolean CompareTrees(Node root1, Node root2) {
             if (root1 == null )

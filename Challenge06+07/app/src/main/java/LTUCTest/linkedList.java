@@ -103,21 +103,17 @@ public class linkedList <T> {
 
     public int kthFromEnd(int k) {
         Node pointer = this.Head;
-        int count1 = count-1;
+        Node pointer2 = this.Head;
+
+        int K = count-1;
         try {
     while (pointer != null) {
-        pointer.index = count1;
-        pointer = pointer.Next;
-        count1--;
-    }
-    Node pointer2 = this.Head;
-    while (pointer2 != null) {
-        if (pointer2.index == k) {
-            this.i = k;
-            return (int) pointer2.value;
-
+        if(K == k)
+        {
+            return (int) pointer.value;
         }
-        pointer2 = pointer2.Next;
+        pointer = pointer.Next;
+        K--;
     }
         }catch (Exception err){
     System.out.println(err.getMessage());

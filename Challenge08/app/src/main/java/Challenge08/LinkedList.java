@@ -133,24 +133,21 @@ public class LinkedList <T> {
         if(ls2.length() > ls1.length())
             while (pointer2 != null) {
                 if(pointer != null)
-                result.append(pointer.value);
+                    result.append(pointer.value);
                 result.append(pointer2.value);
 
                 if(pointer!= null)
-                pointer = pointer.Next;
+                    pointer = pointer.Next;
                 pointer2 = pointer2.Next;
             }
         if(ls2.length() < ls1.length())
             while (pointer != null) {
-
                     result.append(pointer.value);
                     if(pointer2 != null)
-                result.append(pointer2.value);
-
-
+                        result.append(pointer2.value);
                     pointer = pointer.Next;
                     if(pointer2 != null)
-                pointer2 = pointer2.Next;
+                        pointer2 = pointer2.Next;
             }
         return result;
     }

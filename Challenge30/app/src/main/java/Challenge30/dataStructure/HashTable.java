@@ -25,18 +25,17 @@ public class HashTable<K, V> {
     private int hashCode(K key) {
         return Objects.hashCode(key);
     }
-    private int getBucketIndex(K key) {
+    private int hash(K key) {
         int hashCode = hashCode(key);
         int arrayIndex = hashCode % buckets;
 
         arrayIndex = arrayIndex < 0 ? arrayIndex * -1 : arrayIndex;
-//        if(keys().contains(key))
-        System.out.println("The index of => " + key + " is => " + arrayIndex);
+//        System.out.println("The index of => " + key + " is => " + arrayIndex);
 
         return arrayIndex;
     }
     public void set(K key, V value) {
-        int index = getBucketIndex(key);
+        int index = hash(key);
         int hashcode = hashCode(key);
 
         HashNode<K, V> head = bucketArray.get(index);
@@ -62,7 +61,7 @@ public class HashTable<K, V> {
             }
 
         }
-
+// That make it the worst case
         if ((1.0 * size) / buckets >= 0.7) {
             ArrayList<HashNode<K, V>> temp = bucketArray;
             bucketArray = new ArrayList<>();
@@ -79,28 +78,29 @@ public class HashTable<K, V> {
             }
         }
     }
-    public V get(K key) {
 
-        int bucketIndex = getBucketIndex(key);
+    /**
+     * Fix the get method
+     * @param key
+     * @return
+     */
+    public V get(K key) {
+        int bucketIndex = hash(key);
         int hashCode = hashCode(key);
         HashNode<K,V> head = bucketArray.get(bucketIndex);
         try {
-            if (head.getNext() != null) {
                 while (head != null) {
                     if (head.getKey().equals(key) && head.getHashCode() == hashCode)
                         return head.getValue();
                     head = head.getNext();
                 }
-            } else {
-                return head.getValue();
-            }
         }catch (Exception e){
             System.out.println("null");
         }
     return null;
     }
     public boolean contains(K key) {
-        int bucketIndex = getBucketIndex(key);
+        int bucketIndex = hash(key);
         int hashCode = hashCode(key);
 
         HashNode<K, V> head = bucketArray.get(bucketIndex);
@@ -108,9 +108,16 @@ public class HashTable<K, V> {
             if(head.getKey().equals(key)){
                 return true;
             }
+            head = head.getNext();
         }
         return false;
     }
+//    O (n^2)
+
+    /***
+     * i will recieve a video from aseel Explain this
+     * @return
+     */
     public List<String> keys(){
         List<String> allKeys = new ArrayList<>();
         for (int i = 0; i <bucketArray.size() ; i++) {
@@ -122,6 +129,7 @@ public class HashTable<K, V> {
         }
         return allKeys;
     }
+
 
 
 }
