@@ -13,7 +13,6 @@ public class Stack {
 
     public boolean isEmpty(){
         return top == null;
-
     }
     public NodeStack push(NodeStack value){
         items.add(value);

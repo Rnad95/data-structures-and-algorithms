@@ -25,7 +25,6 @@ class AppTest {
         int n = 5;
         assertEquals(n,  classUnderTest.Head.value);
     }
-
     @Test void multipleNode(){
         linkedList classUnderTest = new linkedList();
         classUnderTest.insert(1);
@@ -34,13 +33,10 @@ class AppTest {
         int n = 3;
         assertEquals(n,  classUnderTest.length());
     }
-
-
     @Test void insert() {
         linkedList classUnderTest = new linkedList();
         assertEquals("Success",  classUnderTest.insert("hello"));
     }
-
     @Test void trueInclude() {
         linkedList classUnderTest = new linkedList();
         classUnderTest.insert("hello");
