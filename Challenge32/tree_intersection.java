@@ -11,36 +11,25 @@ import java.util.Map;
 
 public class TreeIntersection <T>{
     static List result = new ArrayList<>();
+    static HashTable<String,String> hashMap = new HashTable<>();
+
     public static List tree_intersection(BinaryTree Bt1 , BinaryTree Bt2) {
+        if(Bt2.getRoot()!=null && Bt1.getRoot()!=null ) {
 
-        Map<String,String> hashMap = new HashMap();
-//        if(Bt2.getRoot()!=null || Bt1.getRoot()!=null ) {
+            tree_intersection(new BinaryTree(Bt1.getRoot().getLeft()), new BinaryTree(Bt2.getRoot()));
+            tree_intersection(new BinaryTree(Bt1.getRoot().getRight()), new BinaryTree(Bt2.getRoot()));
 
-            if (Bt2.getRoot() != null && Bt1.getRoot() != null) {
-                hashMap.put(Bt2.getRoot().getValue().toString(), "null");
-                if (hashMap.keySet().contains(Bt1.getRoot().getValue())) {
-                    hashMap.put(Bt2.getRoot().getValue().toString(), Bt1.getRoot().getValue().toString());
-                    result.add(Bt1.getRoot().getValue().toString());
-                }
-                tree_intersection(new BinaryTree(Bt1.getRoot().getLeft()),new BinaryTree(Bt2.getRoot().getLeft()));
-                tree_intersection(new BinaryTree(Bt1.getRoot().getRight()),new BinaryTree(Bt2.getRoot().getRight()));
+            if(Bt1.getRoot().getValue()==(Bt2.getRoot().getValue())) {
+                hashMap.set(Bt1.getRoot().getValue().toString(), Bt2.getRoot().getValue().toString());
+            }
 
-                /**
-                 * Fix it to be search for element in the whole tree
-                 */
-//                tree_intersection(new BinaryTree(Bt1.getRoot()), new BinaryTree(Bt2.getRoot().getLeft()));
-//                tree_intersection(new BinaryTree(Bt1.getRoot()), new BinaryTree(Bt2.getRoot().getRight()));
-//            }
-
-//            for (Map.Entry<String,String> entry : hashMap.entrySet()) {
-//                System.out.println(entry.getKey() + ", Stock : " + entry.getValue());
-//            }
-
+            tree_intersection(new BinaryTree(Bt1.getRoot()), new BinaryTree(Bt2.getRoot().getLeft()));
+            tree_intersection(new BinaryTree(Bt1.getRoot()), new BinaryTree(Bt2.getRoot().getRight()));
         }
+
+        result = hashMap.keys();
         return result;
     }
-
-
 
 }
 
