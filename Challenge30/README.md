@@ -18,18 +18,20 @@ Implement the hash-Table, facing the Collision Problem and fixed it using the CH
 Average Case:
 
 - set method : O(1)
-- get method : O(1)
+- get method : O(n)
 - keys method: O(n)
+- contains method: O(n)
 
 Worst  Case:
 
-- set method : O(n)
+- set method : O(n^2) if we assume that we will increase table buckets.
 - get method : O(n)
-- keys method: O(n)
+- keys method: O(n^2) depending on the table bucket size.  
+- contains method: O(n)
 
-**The time Complexity:**
+**The space Complexity:**
 
-- The average case: O(n)
+- The average case: O(1)
 
 ## API
 <!-- Show how to run your code, and examples of it in action -->
