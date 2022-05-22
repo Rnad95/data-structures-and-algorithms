@@ -1,4 +1,4 @@
-package Challenge30.data;
+package Challenge31.data;
 
 public class HashNode <K, V> {
     private final K key;
