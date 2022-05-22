@@ -14,25 +14,74 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
 
-    @Test void test_NoRepeatedWord(){
-        String str ="Heelo Iam Renad M";
-//        repeatedWord(str);
-        assertEquals("No word is repeated",repeatedWord(str));
-    }
 
-    @Test void test_HasOneRepeated(){
-        String str ="Heelo Iam Renad Renad";
-        assertEquals("renad",repeatedWord(str));
-    }
+        @Test void SetKeyAndValue(){
+            String actual ="";
+            HashTable hashTable = new HashTable<>();
+            hashTable.set("AMMAN","JORDAN");
+            actual = actual+ hashTable.keys() + hashTable.get("AMMAN");
+            String expected = "[AMMAN]JORDAN";
+            assertEquals(expected,actual);
+        }
+        @Test void RetrieveValueBssedOnKEY(){
+            HashTable hashTable = new HashTable<>();
+            hashTable.set("AMMAN","JORDAN");
+            assertEquals("JORDAN",hashTable.get("AMMAN"));
+        }
+        @Test void UniqueKEY(){
+            HashTable hashTable = new HashTable<>();
+            hashTable.set("AMMAN","JORDAN");
+            hashTable.set("AMMAN","CAPITAL PF JORDAN");
+            assertEquals("CAPITAL PF JORDAN",hashTable.get("AMMAN"));
+        }
+        @Test void HandleTheCollision(){
+            HashTable hashTable = new HashTable<>();
+            hashTable.set("JAVA","CODING");
+            hashTable.set("Amman","CAPITAL OF JORDAN");
+            System.out.println(hashTable.keys());
+            String expected = "[JAVA, Amman]";
+            String actual = hashTable.keys().toString();
+            assertEquals(expected,actual);
+        }
+        @Test void RetrieveValueFromBucket(){
+            HashTable hashTable = new HashTable<>();
+            hashTable.set("Amman","JORDAN");
+            hashTable.set("JAVA","CODING");
+            String expected = "[JORDAN, CODING]";
+            String actual = "["+hashTable.get("Amman")+", "+hashTable.get("JAVA")+"]";
+            assertEquals(expected,actual);
+        }
+        @Test void hashKey(){
+            HashTable hashTable = new HashTable<>();
+            hashTable.set("Amman","JORDAN");
+            assertNotEquals("Amman",hashTable.hashCode());
+        }
+        @Test void nullKey(){
+            HashTable hashTable = new HashTable<>();
+            hashTable.set("Amman","JORDAN");
+            assertEquals(null,hashTable.get("JJJ"));
+        }
 
-    @Test void test_HasOneRepeatedWithCaretoCaseSenstive(){
-        String str ="Heelo Iam Renad renad";
-        assertEquals("renad",repeatedWord(str));
-    }
-
-    @Test void test_HasOneMoreRepeatedAndTakeTheLastRepeated(){
-        String str ="Heelo Iam Renad renad Iam";
-        assertEquals("iam",repeatedWord(str));
-    }
+    
+//    @Test void test_NoRepeatedWord(){
+//        String str ="Heelo Iam Renad M";
+////        repeatedWord(str);
+//        assertEquals("No word is repeated",repeatedWord(str));
+//    }
+//
+//    @Test void test_HasOneRepeated(){
+//        String str ="Heelo Iam Renad Renad";
+//        assertEquals("renad",repeatedWord(str));
+//    }
+//
+//    @Test void test_HasOneRepeatedWithCaretoCaseSenstive(){
+//        String str ="Heelo Iam Renad renad";
+//        assertEquals("renad",repeatedWord(str));
+//    }
+//
+//    @Test void test_HasOneMoreRepeatedAndTakeTheLastRepeated(){
+//        String str ="Heelo Iam Renad renad Iam";
+//        assertEquals("renad",repeatedWord(str));
+//    }
 
 }
