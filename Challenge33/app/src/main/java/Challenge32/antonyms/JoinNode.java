@@ -13,7 +13,7 @@ public class JoinNode<T>{
     public JoinNode() {
     }
 
-    public JoinNode(T key, T antonyms, T synonym) {
+    public JoinNode(T key, T synonym, T antonyms) {
         this.key = key;
         this.antonyms = antonyms;
         this.synonym = synonym;

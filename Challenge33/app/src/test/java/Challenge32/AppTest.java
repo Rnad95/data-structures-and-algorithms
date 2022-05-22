@@ -3,14 +3,19 @@
  */
 package Challenge32;
 
+import Challenge32.antonyms.Join;
+import Challenge32.antonyms.JoinNode;
 import Challenge32.btData.BTNode;
+import Challenge32.dataStructure.HashTable;
 import Challenge32.structure.BinaryTree;
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
+import static Challenge32.LeftJoin.leftJoin;
 import static Challenge32.RepeatedWord.repeatedWord;
 import static Challenge32.TreeIntersection.tree_intersection;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -18,37 +23,77 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
 
-    @Test void test_GetCommonElement(){
-        BTNode<String> btNode = new BTNode<>("A");
-        btNode.setLeft(new BTNode<>("B"));
-        btNode.getLeft().setLeft(new BTNode<>("C"));
-        btNode.getLeft().setRight(new BTNode<>("Z"));
+    @Test void test_NullElementInsideTheSecondBinaryTree(){
+        HashTable<String,String> hashTable1 = new HashTable<>();
+        hashTable1.set("ID1","Renad");
+        hashTable1.set("ID2","Malak");
+        hashTable1.set("ID3","Eman");
+        hashTable1.set("ID4","Tala");
 
-        btNode.setRight(new BTNode<>("T"));
-        btNode.getRight().setRight(new BTNode<>("D"));
-        btNode.getRight().getRight().setRight(new BTNode<>("R"));
+        HashTable<String,String> hashTable2 = new HashTable<>();
+        hashTable2.set("ID1","Jamil");
+        hashTable2.set("ID2","Mohammad");
+        hashTable2.set("ID3","Tawfeeq");
+        hashTable2.set("ID4",null);
+        List<JoinNode> expected = new ArrayList<>();
+        List<JoinNode> result = leftJoin(hashTable1,hashTable2);
+        JoinNode node1 = new JoinNode<>("ID1","Renad","Jamil");
+        JoinNode node2 = new JoinNode<>("ID2","Malak","Mohammad");
+        JoinNode node3 = new JoinNode<>("ID3","Eman","Tawfeeq");
+        JoinNode node4 = new JoinNode<>("ID4","Tala",null);
+        expected.add(node1);
+        expected.add(node2);
+        expected.add(node3);
+        expected.add(node4);
 
-        BinaryTree<String> Bt1= new BinaryTree<>(btNode);
-
-        BTNode<String> btNode2 = new BTNode<>("A");
-        btNode2.setLeft(new BTNode<>("E"));
-        btNode2.getLeft().setLeft(new BTNode<>("D"));
-        btNode2.getLeft().setRight(new BTNode<>("Q"));
-
-        btNode2.setRight(new BTNode<>("M"));
-        btNode2.getRight().setRight(new BTNode<>("F"));
-        btNode2.getRight().getRight().setRight(new BTNode<>("R"));
-        BinaryTree<String> Bt2= new BinaryTree<>(btNode2);
-
-
-        List result = tree_intersection(Bt1,Bt2);
-        List expected = new ArrayList();
-        expected.add("R");
-        expected.add("A");
-        expected.add("D");
-        assertEquals(expected,result);
-
+        assertEquals(expected.get(3).getAntonyms(),result.get(3).getAntonyms());
     }
 
+    @Test void test_NullElementInsideTheFirstBinaryTree(){
+        HashTable<String,String> hashTable1 = new HashTable<>();
+        hashTable1.set("ID1","Renad");
+        hashTable1.set("ID2","Malak");
+        hashTable1.set("ID3","Eman");
+        hashTable1.set("ID4","Tala");
 
+        HashTable<String,String> hashTable2 = new HashTable<>();
+        hashTable2.set("ID1","Jamil");
+        hashTable2.set("ID2","Mohammad");
+        hashTable2.set("ID3","Tawfeeq");
+        hashTable2.set("ID4",null);
+        List<JoinNode> expected = new ArrayList<>();
+        List<JoinNode> result = leftJoin(hashTable1,hashTable2);
+        JoinNode node1 = new JoinNode<>("ID1","Renad","Jamil");
+        JoinNode node2 = new JoinNode<>("ID2","Malak","Mohammad");
+        JoinNode node3 = new JoinNode<>("ID3","Eman","Tawfeeq");
+        JoinNode node4 = new JoinNode<>("ID4",null,"Sami");
+        expected.add(node1);
+        expected.add(node2);
+        expected.add(node3);
+        expected.add(node4);
+
+        assertEquals(expected.get(2).getSynonym(),result.get(2).getSynonym());
+    }
+
+    @Test void test_theNumberOfBinaryTreesIsDifferent(){
+        HashTable<String,String> hashTable1 = new HashTable<>();
+        hashTable1.set("ID1","Renad");
+        hashTable1.set("ID2","Malak");
+
+
+        HashTable<String,String> hashTable2 = new HashTable<>();
+        hashTable2.set("ID1","Jamil");
+        hashTable2.set("ID2","Mohammad");
+        hashTable2.set("ID3","Tawfeeq");
+        hashTable2.set("ID4",null);
+        List<JoinNode> expected = new ArrayList<>();
+        List<JoinNode> result = leftJoin(hashTable1,hashTable2);
+        JoinNode node1 = new JoinNode<>("ID1","Renad","Jamil");
+        JoinNode node2 = new JoinNode<>("ID2","Malak","Mohammad");
+
+        expected.add(node1);
+        expected.add(node2);
+
+        assertTrue(expected.size()==result.size());
+    }
 }
