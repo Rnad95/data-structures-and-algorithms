@@ -24,7 +24,7 @@ public class App {
 //        System.out.println(hashTable.keys());
         hashTable.set("JAVA", "Best");
         System.out.println(hashTable.get("Amman"));
-        
+
         String str = "Renad, my name renad my";
         repeatedWord(str);
 
