@@ -14,7 +14,6 @@ public class TreeIntersection <T>{
     static HashTable<String,String> hashMap = new HashTable<>();
 
     public static List tree_intersection(BinaryTree Bt1 , BinaryTree Bt2) {
-
         if(Bt2.getRoot()!=null && Bt1.getRoot()!=null ) {
 
             tree_intersection(new BinaryTree(Bt1.getRoot().getLeft()), new BinaryTree(Bt2.getRoot()));
@@ -31,8 +30,6 @@ public class TreeIntersection <T>{
         result = hashMap.keys();
         return result;
     }
-
-
 
 }
 

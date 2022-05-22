@@ -17,11 +17,10 @@ public class AppTest3 {
         BTNode<String> btNode = new BTNode<>("A");
         BinaryTree<String> Bt3 = new BinaryTree<>(btNode);
 
-        BTNode<String> btNode2 = new BTNode<>("B");
+        BTNode<String> btNode2 = new BTNode<>("A");
         btNode2.setLeft(new BTNode<>("C"));
         btNode2.getLeft().setLeft(new BTNode<>("D"));
         btNode2.getLeft().setRight(new BTNode<>("E"));
-
         btNode2.setRight(new BTNode<>("F"));
         btNode2.getRight().setRight(new BTNode<>("G"));
         btNode2.getRight().getRight().setRight(new BTNode<>("H"));
@@ -29,6 +28,7 @@ public class AppTest3 {
 
         List result = tree_intersection(Bt3, Bt4);
         List expected = new ArrayList<>();
+        expected.add("A");
         System.out.println(result);
         assertEquals(expected,result);
 

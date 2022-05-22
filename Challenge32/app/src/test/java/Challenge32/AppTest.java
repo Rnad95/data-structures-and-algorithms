@@ -46,6 +46,7 @@ class AppTest {
         expected.add("R");
         expected.add("A");
         expected.add("D");
+        System.out.println(expected);
         assertEquals(expected,result);
 
     }

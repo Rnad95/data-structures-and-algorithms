@@ -26,7 +26,7 @@ public class LeftJoin <T>{
         System.out.println("[");
            for (int i = 0; i < result.size(); i++) {
 
-               System.out.println("     [\"" + result.get(i).getKey() + " \", " + result.get(i).getAntonyms() + " \", " + result.get(i).getSynonym()+"\"]");
+               System.out.println("     [\"" + result.get(i).getKey() + " \", " + result.get(i).getAntonyms() + " \", \"" + result.get(i).getSynonym()+"\"]");
            }
         System.out.println("]");
 
