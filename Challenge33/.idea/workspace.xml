@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665058c7-a951-44a8-8d5f-307b96e85239" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Challenge06+07/app/.idea/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge06+07/app/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge06+07/app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge06/.idea/Challenge06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/LeftJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/antonyms/Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/antonyms/JoinNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge33/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge05/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge05/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge05/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge05/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge05/app/src/test/java/Challenge05/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge05/app/src/test/java/Challenge05/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/app/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/app/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/app/build/classes/java/main/LTUCTest/linkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/app/build/classes/java/main/LTUCTest/linkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06+07/app/src/main/java/LTUCTest/linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06+07/app/src/main/java/LTUCTest/linkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge06/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge06/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge08/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge08/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge08/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge08/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge08/app/src/main/java/Challenge08/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge08/app/src/main/java/Challenge08/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge10/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge10/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge10/app/src/main/java/Challenge10/Stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge10/app/src/main/java/Challenge10/Stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge11/.idea/Challenge11.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge11/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge11/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge11/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge15/app/src/main/java/Challenge15/dataStructure/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge15/app/src/main/java/Challenge15/dataStructure/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge30/app/src/main/java/Challenge30/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge30/app/src/main/java/Challenge30/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge30/app/src/main/java/Challenge30/RepeatedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge30/app/src/main/java/Challenge30/RepeatedWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge30/app/src/main/java/Challenge30/dataStructure/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge30/app/src/main/java/Challenge30/dataStructure/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge30/app/src/test/java/Challenge30/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge30/app/src/test/java/Challenge30/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Challenge32/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Challenge32/TreeIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/TreeIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Challenge32/dataStructure/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/dataStructure/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="665058c7-a951-44a8-8d5f-307b96e85239" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Challenge33" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,7 +72,7 @@
       <recent name="Challenge32.dataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.app">
+  <component name="RunManager" selected="JUnit.appTest">
     <configuration name="app" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Challenge32.App" />
       <module name="Challenge15.app.main" />
@@ -209,6 +159,7 @@
       <workItem from="1652948483292" duration="3892000" />
       <workItem from="1652964386136" duration="1512000" />
       <workItem from="1652970212669" duration="13893000" />
+      <workItem from="1653226532680" duration="4014000" />
     </task>
     <servers />
   </component>
