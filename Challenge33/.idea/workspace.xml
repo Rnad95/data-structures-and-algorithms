@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665058c7-a951-44a8-8d5f-307b96e85239" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge33/test2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge33/test3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Challenge32/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Challenge32/LeftJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/LeftJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Challenge32/antonyms/JoinNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Challenge32/antonyms/JoinNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/Challenge32/AppTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree_intersection.java" beforeDir="false" />
-    </list>
+    <list default="true" id="665058c7-a951-44a8-8d5f-307b96e85239" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +159,7 @@
       <workItem from="1652948483292" duration="3892000" />
       <workItem from="1652964386136" duration="1512000" />
       <workItem from="1652970212669" duration="13893000" />
-      <workItem from="1653226532680" duration="3543000" />
+      <workItem from="1653226532680" duration="4014000" />
     </task>
     <servers />
   </component>
