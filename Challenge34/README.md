@@ -1,4 +1,4 @@
-# Hashmap LEFT JOIN
+# Hashmap most common word
 <!-- Short summary or background information -->
 
 Write a function that LEFT JOINs two hashmaps into a single data structure.
@@ -6,20 +6,12 @@ Write a function that LEFT JOINs two hashmaps into a single data structure.
 ## whiteboard
 <!-- Description of the challenge -->
 
-![whiteboard](Challenge33/whiteboard.png)
+![whiteboard](https://i.ibb.co/YtsTh7y/Screenshot-from-2022-05-23-14-27-42.png))
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-Time Complexity: O(n^2)  
-space Complexity: O(n^2)
-
-## Result of output and test
-
-**The output In IntelliJ:**
-![output](Challenge33/output.png)
-
-**The test In IntelliJ:**
-![test](Challenge33/test.png)
+Time Complexity: O(n)  
+space Complexity: O(n)
 
 ## API
 <!-- Embedded whiteboard image -->
@@ -35,4 +27,4 @@ The steps to run this code in your machine:
  `OR`
 test the code in terminal:
 
-> `renad@renad-HP-Notebook:~/data-structures-and-algorithms/Challenge11$` ./gradlew test  
+> `renad@renad-HP-Notebook:~/data-structures-and-algorithms/Challenge$` ./gradlew test  
