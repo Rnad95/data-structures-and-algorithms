@@ -26,6 +26,11 @@
 |  Challenge28  | QuickSort Algorithm | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge28)                                    |
 |  Challenge30  |     HashTable       | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge30)                                    |
 |  Challenge31  |    Repeatedword     | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge31)                                    |
+|  Challenge32  |    Repeatedword     | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge32)                                    |
+|  Challenge33  |    Repeatedword     | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge33)                                    |
+|  Challenge34  |    Repeatedword     | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge34)                                    |
+|  Challenge35  |        Graph        | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge35)                                    |
+
 
 
 
