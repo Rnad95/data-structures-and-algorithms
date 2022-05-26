@@ -8,9 +8,7 @@ import Challenge35.graphDataStructure.Vertex;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -92,49 +90,5 @@ class AppTest {
         boolean expected = graph.isEmplty();
       assertTrue(expected);
     }
-    @Test void test_OneNodeTraverse() {
-        Graph graph = new Graph();
-        graph.addNode("A");
-        Set<String> expected = new LinkedHashSet<>();
-        expected.add("A");
-        assertEquals(expected,graph.BFS(graph,"A"));
-
-    }
-    @Test void test_CircleNodesTraverse() {
-        Graph graph = new Graph();
-        graph.addEdge("A","B");
-        graph.addEdge("B","C");
-        graph.addEdge("C","A");
-
-        Set<String> expected = new LinkedHashSet<>();
-        expected.add("A");
-        expected.add("B");
-        expected.add("C");
-        assertEquals(expected,graph.BFS(graph,"A"));
-
-    }
-    @Test void test_NodesMultipleTraverse() {
-        Graph graph = new Graph();
-        graph.addEdge("Pandora","Arendelle");
-        graph.addEdge("Arendelle","Metro");
-        graph.addEdge("Arendelle","Menstro");
-        graph.addEdge("Narnia","Metro");
-        graph.addEdge("Narnia","Naboo");
-        graph.addEdge("Metro","Naboo");
-        graph.addEdge("Menstro","Naboo");
-
-
-        Set<String> expected = new LinkedHashSet<>();
-        expected.add("Pandora");
-        expected.add("Arendelle");
-        expected.add("Metro");
-        expected.add("Menstro");
-        expected.add("Narnia");
-        expected.add("Naboo");
-
-        assertEquals(expected,graph.BFS(graph,"Pandora"));
-
-    }
-
 
 }
