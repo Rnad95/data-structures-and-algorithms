@@ -30,6 +30,7 @@
 |  Challenge33  |    left Join        | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge33)                                    |
 |  Challenge34  |    mostCommonword   | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge34)                                    |
 |  Challenge35  |        Graph        | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge35)                                    |
+|  Challenge36  | Graph Breadth-First | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge36)                                    |
 
 
 
