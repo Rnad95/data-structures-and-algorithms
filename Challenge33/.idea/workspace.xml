@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665058c7-a951-44a8-8d5f-307b96e85239" name="Changes" comment="" />
+    <list default="true" id="665058c7-a951-44a8-8d5f-307b96e85239" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Challenge35/app/src/main/java/Challenge35/data/HashNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Challenge35/app/src/main/java/Challenge35/dataStructure/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Challenge35/app/src/main/java/Challenge35/graphDataStructure/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Challenge35/app/src/main/java/Challenge35/graphDataStructure/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +166,7 @@
       <workItem from="1652964386136" duration="1512000" />
       <workItem from="1652970212669" duration="13893000" />
       <workItem from="1653226532680" duration="4014000" />
+      <workItem from="1653380675907" duration="649000" />
     </task>
     <servers />
   </component>
