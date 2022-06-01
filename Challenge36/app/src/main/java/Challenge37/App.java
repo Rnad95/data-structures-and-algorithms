@@ -17,28 +17,37 @@ public class App {
     public static void main(String[] args) {
         Graph graph = new Graph();
 
+//        graph.addEdge("Pandora","Arendelle",150);
+//        graph.addEdge("Pandora","Metro",82);
+//        graph.addEdge("Arendelle","Metro",99);
+//        graph.addEdge("Arendelle","Menstro",42);
+//        graph.addEdge("Metro","Menstro",105);
+//        graph.addEdge("Narnia","Metro",37);
+//        graph.addEdge("Narnia","Naboo",250);
+//        graph.addEdge("Metro","Naboo",26);
+//        graph.addEdge("Menstro","Naboo",37);
+//
 
 
-        graph.addEdge("Pandora","Arendelle",150);
-        graph.addEdge("Pandora","Metro",82);
+        graph.addEdge("D","A",9);
+        graph.addEdge("A","B",1);
+        graph.addEdge("B","C",2);
+        graph.addEdge("C","G",3);
+        graph.addEdge("B","D",4);
+        graph.addEdge("E","D",5);
+        graph.addEdge("H","F",5);
+        graph.addEdge("F","D",8);
+        graph.addEdge("D","H",6);
 
-        graph.addEdge("Arendelle","Metro",99);
-        graph.addEdge("Arendelle","Menstro",42);
-        graph.addEdge("Metro","Menstro",105);
 
-        graph.addEdge("Narnia","Metro",37);
-        graph.addEdge("Narnia","Naboo",250);
-        graph.addEdge("Metro","Naboo",26);
-        graph.addEdge("Menstro","Naboo",37);
+        System.out.println(graph.DFS(graph,"A"));
+//       List arr = new ArrayList<>();
+//       arr.add("Pandora");
+//       arr.add("Arendelle");
+//       arr.add("Menstro");
 
-       List arr = new ArrayList<>();
-       arr.add("Pandora");
-       arr.add("Arendelle");
-       arr.add("Menstro");
 
-        System.out.println("***************");
-
-        System.out.println(graph.businessTrip(graph,arr));
+//        System.out.println(graph.businessTrip(graph,arr));
 //        System.out.println(graph.printGraph());
     }
 }

@@ -12,7 +12,7 @@ public class Graph {
         this.adjVertex = new HashMap<>();
     }
     public Graph(Map<Vertex, List<Vertex>> adjVertex) {
-        this.adjVertex = new HashMap<>();
+        this.adjVertex = adjVertex;
     }
 
     public Vertex addNode(String data){
@@ -40,7 +40,6 @@ public class Graph {
         adjVertex.get(vertex2).add(vertex1);
         return adjVertex.get(vertex1);
     }
-
     public List addEdge(String data1,String data2, int weight){
         Vertex vertex1 = addNode(data1,weight);
         Vertex vertex2 = addNode(data2,weight);
@@ -75,7 +74,6 @@ public class Graph {
             str.append(" =>");
             str.append(adjVertex.get(vertex));
             str.append("\n");
-            str.append("*********\n");
         }
         return str.toString();
     }
@@ -94,7 +92,6 @@ public class Graph {
         adjVertex.get(vertex2).remove(vertex1);
     }
     public Set<String> BFS(Graph graph, String root){
-
         Set<String> visited = new LinkedHashSet<>();
         Queue<String> queue = new LinkedList<>();
         queue.add(root);
@@ -115,12 +112,36 @@ public class Graph {
         return visited;
     }
     private List<Vertex> getAdjVerticies(String data) {
-        return  adjVertex.get(new Vertex(data));
+        return  adjVertex.get(new   Vertex(data));
     }
     public boolean isEmpty(){
         return count == 0;
     }
+    public int getEdge(String edge1 , String edge2){
+        Vertex vertex1 = new Vertex(edge1 , 0);
+        Vertex vertex2 = new Vertex(edge2,0);
+        int edge =0;
 
+        Set<Vertex> nodes = getNodes();
+
+        for (Vertex node:
+             nodes) {
+            if(node.equals(vertex1))
+            {
+                for (Vertex v:
+                     adjVertex.get(node)) {
+                    System.out.println("***************** NODES "+  adjVertex.get(node));
+//                    System.out.println("***************** v "+ v);
+                    if(v.getValue().equals(vertex2.getValue())) {
+                        edge = v.getWeight();
+                    }
+                    System.out.println("****************** EDGE " + v.getWeight());
+
+                }
+            }
+        }
+            return edge;
+    }
     public String businessTrip (Graph graph, List arr ){
         String str ="$ ";
         int cost = 0;
@@ -141,8 +162,9 @@ public class Graph {
             if(negibhors.contains(vertex)){
                 if(!visited.containsKey(negibhors.get(i).toString())){
                     visited.put(negibhors.get(i).toString(),negibhors.get(i).getWeight());
-                    System.out.println("WEIGHT WILL BE ADDED INSIDE COST " +arr.get(i).toString());
-                    cost = cost + negibhors.get(i).getWeight();
+                    System.out.println("WEIGHT WILL BE ADDED INSIDE COST " +getEdge(arr.get(i).toString(),negibhors.get(i+1).toString()));
+
+                    cost = cost + getEdge(arr.get(i).toString(),negibhors.get(i+1).toString());
                     System.out.println("COST =>"+ cost);
 
                 }
@@ -153,7 +175,26 @@ public class Graph {
         str = str + cost;
         return str;
     }
-
+    public Set DFS(Graph graph, String root){
+        Set<String> visited = new LinkedHashSet<>();
+        Stack<String> stack = new Stack<>();
+        stack.add(root);
+        visited.add(root);
+        while (!stack.isEmpty()){
+            String vertex = stack.pop();
+            for (Vertex v : graph.getAdjVerticies(vertex)) {
+                if (!visited.contains((v.value)))
+                {
+                    if(!stack.contains(v.value))
+                    {
+                        stack.add(v.value.toString());
+                    }
+                }
+                visited.add(vertex);
+            }
+        }
+        return visited;
+    }
     @Override
     public String toString() {
         return "Graph{" +
