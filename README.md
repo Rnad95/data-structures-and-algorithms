@@ -31,8 +31,8 @@
 |  Challenge34  |    mostCommonword   | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge34)                                    |
 |  Challenge35  |        Graph        | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge35)                                    |
 |  Challenge36  | Graph Breadth-First | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge36)                                    |
-
-
+|  Challenge37  |   Business Trip     | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge37)                                    |
+|  Challenge36  | Graph Depth-First   | [Link](https://github.com/Rnad95/data-structures-and-algorithms/tree/main/Challenge38)                                    |
 
 
 
